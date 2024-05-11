@@ -4,8 +4,3 @@ services:
       context: ./Backend
     ports:
       - "3000:3000"
-  frontend:
-    build:
-      context: ./Frontend
-    ports:
-      - "4000:4000"
